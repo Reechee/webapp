@@ -1796,7 +1796,7 @@ a:hover {
 }
 .titulo-h1 h1 {
 	font-weight: normal;
-	font-size: 43px;
+	font-size: 40px;
 	color: #004C97;
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -1925,6 +1925,7 @@ a:hover {
 .formato p {
 	line-height: 1.6;
 	margin-bottom: 26px;
+    text-align: justify;
 }
 .formato p.fecha-rector {
 	font-size: 15px;
@@ -3130,7 +3131,7 @@ a:hover {
 	font-weight: normal;
 }
 .direc-unid .formato h3 {
-	font-size: 21px;
+	font-size: 30px; /*21px;*/
 	color: #004C97;
 	font-weight: normal;
 	margin-bottom: 15px;
