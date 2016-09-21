@@ -67,9 +67,6 @@
 		</div>
 	</div>
 
-
-
-	<div class="wrapper-logos-blank"></div>
 	<div class="wrapper-logos">
 		<div class="container">
 			<div class="row logos">
@@ -92,7 +89,7 @@
 		</div>
 	</div>
 
-	<div class="wrapper-menu-prin-blank"></div>
+	
 	<div class="wrapper-menu-prin">
 		<div class="container">
 			<div class="row">
@@ -105,7 +102,7 @@
 								<span class="icon-bar"></span>
 							</button>
 							<div class="input-group busca-campos pull-right solo-celu">
-                                <form action="#" onsubmit="javascript:cargaBuscar(); return false;">
+                                <form action="#" onsubmit="return false;">
                                     <span class="lupa" id="movil-lupa"></span>
                                     <input id="movil-input" name="busca" class="form-control" placeholder="Buscar en toda la PUCP" type="text">
                                     <span class="input-group-btn" id="movil-submit">
@@ -113,44 +110,27 @@
                                     </span>
                                 </form>
                                 <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
-                                <script type="text/javascript">
-                                    function cargaBuscar(){
-                                        $busca = jQuery('#movil-input').val();
-                                        window.document.location.href='http://www.pucp.edu.pe?s='+$busca+'&q='+$busca;
-                                    }
-                                    function cargaBuscar2(){
-                                        $busca = jQuery('#movil-input2  ').val();
-                                        window.document.location.href='http://www.pucp.edu.pe?s='+$busca+'&q='+$busca;
-                                    }
-                                </script>
+                                
 							</div>
 						</div>
-						<div class="navbar-collapse collapse navbar-responsive-collapse">
-							<ul class="nav navbar-nav">
-                                 <li class="dos-lineas ">
-                    	           <a href="index.html">Inicio</a>
-                                </li>
-                                
-								<li class=" "><a href="nosotros.html">Nosotros
-								</a>
-					
-
+				<div class="navbar-collapse collapse navbar-responsive-collapse">
+				<ul class="nav navbar-nav">
+                    <li class="dos-lineas ">
+                        <a href="index.html">Inicio</a>
+                    </li>    
+					<li class="dos-lineas">
+                        <a href="nosotros.html">Nosotros</a>
                     </li>
                     <li class="dos-lineas ">
-                    	<a href="../../admision/index.html">Noticias</a>
-
-                    
-                    </li><li class="dos-lineas "><a href="../../pregrado/index.html">Eventos</a>
-
-                  
-                    </li><li class="dos-lineas"><a href="../../posgrado/index.html">Mapa</a>
-
-                    
+                    	<a href="noticias.html">Noticias</a>
                     </li>
-
                     
-
-
+                    <li class="dos-lineas ">
+                        <a href="eventos.html">Eventos</a>
+                    </li>
+                    <li class="dos-lineas">  
+                        <a href="http://map-tools.io/examples/geojson.html"> Mapa</a>
+                    </li>
 
                     </ul>
 						</div>
