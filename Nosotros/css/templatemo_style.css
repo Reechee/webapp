@@ -667,10 +667,9 @@ hr {
   text-align: center;
   top: 0;
   left: 0;
-  background-color: red;
+  background-color: #0F4279;
   color: white;
-  opacity: 0.1;
-  filter: alpha (opacity=30);
+  opacity: 0;
   visibility: hidden;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -709,7 +708,7 @@ hr {
   -moz-border-radius: 18px;
 }
 .team-member .member-thumb:hover .team-overlay {
-  opacity: 0.3;
+  opacity: 0.5;
   visibility: visible;
 }
 

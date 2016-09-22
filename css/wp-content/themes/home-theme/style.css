@@ -1279,6 +1279,7 @@ a:hover {
 .eventos-home-item a:hover .evento-link-txt h3 {
 	color: #004C97;
 }
+
 .eventos-home .ver-mas-agenda {
 	text-transform: uppercase;
 	font-size: 14px;
@@ -8287,4 +8288,119 @@ iframe.visor{
 .pub-des{}
 .pub-des .link-btn{
 	margin: 0 0 0 auto;
+}
+
+.cuerpo-interna > h2{
+    font-size: 22px;
+    color: #001F4F;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.single_category_inner{ /*Noticias*/
+	float: left;
+	display: inline;
+	width: 100%;
+	padding: 10px 15px;
+}
+.catg_nav li {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 28%;
+  margin-bottom: 5px;
+}
+.catg_nav li:nth-child(2){
+	margin-right: 20px;
+}
+.catg_nav li:nth-child(4){
+	margin-right: 20px;
+}
+.catgimg_container {
+    width:100%;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.catg1_img img {
+	height: 100%;
+	width:100%;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-ms-transition: all 1s ease; /* IE 9 */
+	-o-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+	transform: translate3d(0px, 0px, 0px);
+}
+.catg1_img:hover img {
+	opacity: 0.8;
+	-webkit-transform:scale(1.1); /* Safari and Chrome */
+	-moz-transform:scale(1.1); /* Firefox */
+	-ms-transform:scale(1.1); /* IE 9 */
+	-o-transform:scale(1.1); /* Opera */
+	transform:scale(1.1);
+}
+.catg_title{
+	color: #111;
+	display: block;
+	font-size: 14px;
+	line-height: 23px;
+	margin-bottom: 7px;
+}
+.catg_title:before {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  content: "";
+	margin-right: 5px;
+}
+.sing_commentbox{
+	float: left;
+	display: inline;
+	width: 100%;
+}
+.sing_commentbox > p {
+  color: #888;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+.sing_commentbox > p i{
+	margin-right: 5px;
+}
+
+.cuerpo-interna  h2{
+    font-size: 22px;
+	color: #001F4F;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 23px;
+}
+
+.ver-mas-noticias{
+    text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: right;
+}
+
+.ver-mas-noticias a{
+    display: inline-block;
+	padding-right: 20px;
+	position: relative;
+}
+
+.ver-mas-noticias a:after{
+    content: "\e080";
+	font-size: 9px;
+	position: absolute;
+	right: 7px;
+	top: 3px;
+	color: #116AAF;
+	font-family: "Glyphicons Halflings";
 }
