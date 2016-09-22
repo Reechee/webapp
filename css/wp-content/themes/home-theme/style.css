@@ -8404,3 +8404,10 @@ iframe.visor{
 	color: #116AAF;
 	font-family: "Glyphicons Halflings";
 }
+
+.fa-calendar:before{
+    font-family: "FontAwesome";
+    content:"\f073";
+}
+
+
